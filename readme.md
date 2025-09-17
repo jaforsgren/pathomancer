@@ -24,17 +24,17 @@ It takes messy imports with relative paths, custom aliases, symlinks, or even No
 ## Installation
 
 ```bash
-npm install trailmix
+npm install pathomancer
 # or
-yarn add trailmix
+yarn add pathomancer
 # or
-pnpm add trailmix
+pnpm add pathomancer
 ```
 
 ## Usage
 
 ```typescript
-import { RepoPathResolver } from "trailmix";
+import { RepoPathResolver } from "pathomancer";
 
 // Start from anywhere inside your repo
 const resolver = new RepoPathResolver("/my/monorepo/packages/service-a");
