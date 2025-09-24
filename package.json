@@ -1,7 +1,8 @@
 {
   "name": "pathomancer",
-  "version": "1.0.1",
-  "main": "index.js",
+  "version": "1.0.2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
@@ -32,3 +33,4 @@
   "license": "ISC",
   "description": "Lightweight utility for resolving file paths"
 }
+
